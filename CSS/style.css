@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.content-left {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #780927; /* Vermelho */
+}
+.content-right img {
+    max-width: 120%;
+    max-height: 100%;
+}
+.seja-diferente,
+        .seja-offbox,
+        .text {
+            margin: 0; /* Remove as margens padrão */
+            margin-bottom: 10px; /* Adicione margem inferior conforme necessário */
+        }
+
+.seja-diferente {
+    color: #780927;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.seja-offbox {
+    color: #4D4848;
+    font-weight: bold;
+    font-size: 4.4em;
+    text-transform: uppercase;
+}
+.text {
+    color: #4D4848;
+    font-size: 1.5em;
+}
+button {
+    background-color: #4D4848;
+    color: white;
+    font-size: 1.2em;
+    height: 50px;
+    width: 100%;
+}
+span {
+    color: #780927;
+    font-weight: bold;
+}
